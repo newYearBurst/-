@@ -52,7 +52,7 @@ $(function() {
                 }
                 layer.msg('登录成功')
                 localStorage.setItem('token', res.token)
-                location.herf = '../../index.html'
+                location.href = '../../index.html'
             }
         })
     })
